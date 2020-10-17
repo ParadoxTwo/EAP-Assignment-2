@@ -1,0 +1,10 @@
+DROP TABLE edwin_login;
+CREATE TABLE edwin_login
+( id NUMBER(10),
+  USERNAME VARCHAR2(20),
+  PASSWORD VARCHAR2(20),
+  privilige VARCHAR2(20)
+  );
+INSERT INTO edwin_login VALUES(1,'admin','$2y$10$ZE0zjQQnptkYhL61/Z0VZO6sSE.TYKuKbl1fosyI6Dj3mPP2ATAh2','admin');
+INSERT INTO edwin_login VALUES(2,'guest','$2y$10$ZE0zjQQnptkYhL61/Z0VZO6sSE.TYKuKbl1fosyI6Dj3mPP2ATAh2','guest');
+commit; 

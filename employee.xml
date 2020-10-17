@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<employee>
+		<employee_id email="harry@deakin.edu.au">458613</employee_id>
+		<Surname>Mark</Surname>
+		<Givenname>Harry</Givenname>
+	</employee>
+	<employee>
+		<employee_id email="nasor@hotmail.com">87541212</employee_id>
+		<Surname>Nasor</Surname>
+		<Givenname>Shahid</Givenname>
+	</employee>
+	<employee>
+		<employee_id email="vivianna@gmail.com">385425552</employee_id>
+		<Surname>Humphrey</Surname>
+		<Givenname>Vivianna</Givenname>
+	</employee>
+	<employee>
+		<employee_id email="purnimaistoohot@gmail.com">851234</employee_id>
+		<Surname>Fernweh</Surname>
+		<Givenname>Purnima</Givenname>
+	</employee>
+	<employee>
+		<employee_id email="lamprecht@msn.com">695812</employee_id>
+		<Surname>Tamy</Surname>
+		<Givenname>Lamprecht</Givenname>
+	</employee>
+	<employee>
+		<employee_id email="ramollin@aol.com">5482315</employee_id>
+		<Surname>Amy</Surname>
+		<Givenname>Ramol</Givenname>
+	</employee>
+
+	<employee>
+		<employee_id email="edwinj@gmail.com">23131</employee_id>
+		<Surname>John</Surname>
+		<Givenname>Edwin</Givenname>
+	</employee>
+<employee><employee_id email="praneeth@gmail.com">123123</employee_id><Surname>Goud</Surname><Givenname>Praneeth</Givenname></employee></root>

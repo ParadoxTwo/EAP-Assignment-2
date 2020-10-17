@@ -1,0 +1,109 @@
+ul  {
+    list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+	margin: 0;
+	background-color:#1F1959;
+	width: 100%;
+}
+li {
+	transition-duration: 0.4s;
+    float: left;
+}
+li a {
+    display: block;
+    color: #837EB1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li:hover {
+	color:  white;
+    background: rgb(39, 31, 109);
+}
+.menu{
+	position: absolute;
+	left: 33vw;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+    width: 500px;
+	margin-top: 30px;	
+}
+.menuDiv{
+	padding: 16px 32px;
+	background-color: #B85C7F;
+	border: 2px solid #931342;
+	border-radius: 10px;
+	cursor: pointer;
+	margin-top: 25px;
+	font-size: 1.3rem;
+	transition-duration: 0.4s;
+}
+.menuDiv:hover{
+	background-color: #6E1236;
+}
+.menuDiv a{
+	color: #48001C;
+	text-decoration:none;
+	transition-duration: 0.4s;
+}
+.menuDiv a:hover{
+	color: #DC93AF;
+	text-decoration:none;
+}
+.searchXML{
+	position: absolute;
+	display: inline-block;
+	left: -242px;
+	width: 316px;
+	margin: 0 50%
+}
+.searchXMLButton, .addXMLButton, .addUserButton{
+	margin-top: 15px;
+	outline: 0;
+	width:80px;
+	border: 1px solid #cccccc;
+	background:#004400;
+	color: white;
+	font-size: 14px;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	cursor: pointer;
+	
+}
+.searchXMLButton:hover, .addXMLButton:hover, .addUserButton:hover, .deleteButton:hover{
+	background: #116611;
+}
+.deleteButton{
+	width: 120px;
+	margin: 10px 50%
+}
+.addXML, .addUser{
+	position: absolute;
+	display: inline-block;
+	width: 1164px;
+	margin: 0 15%
+}
+.h4{
+	color:#4a4040;
+	position:absolute;
+}
+.span{
+	color: red;
+}
+.input[type='text']{
+	outline: 0;
+	border: 1px solid #d9d9d9;
+	border-top: 1px solid #c0c0c0;
+	border-left: 3px solid #8590E7;
+	margin: 0 0 15px;
+	margin-top: 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+body{
+	background-color: #5A5494;
+	color: #0D083B;
+}
